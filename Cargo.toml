@@ -1,0 +1,23 @@
+[workspace]
+
+members = ["crates/*"]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0-alpha.1"
+edition = "2024"
+rust-version = "1.85"
+authors = ["Sven Siegmund <sven.siegmund@gmail.com>"]
+repository = "https://github.com/fleetingbytes/rosins/"
+homepage = "https://crates.io/crates/rosins/"
+documentation = "https://docs.rs/rosins/latest/rosins"
+license = "BSD-2-Clause"
+keywords = ["trng", "prnd", "random", "integer"]
+categories = ["api-bindings", "game-development"]
+
+[workspace.dependencies]
+randomorg = "1.0.4"
+
+[workspace.lints.rust]
+
+[workspace.lints.clippy]

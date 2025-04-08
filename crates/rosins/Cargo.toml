@@ -1,0 +1,21 @@
+[package]
+name = "rosins"
+version.workspace = true
+publish = true
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+description = "Random small integers"
+repository.workspace = true
+homepage.workspace = true
+documentation.workspace = true
+license.workspace = true
+keywords.workspace = true
+categories.workspace = true
+readme = "README.md"
+
+[dependencies]
+randomorg = { workspace = true }
+
+[lints]
+workspace = true
